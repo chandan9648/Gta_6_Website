@@ -38,6 +38,7 @@ const App = () => {
 
   return (
     <>
+     {!showContent && (
       <div className="svg flex items-center justify-center fixed top-0 left-0 z-[100] w-full h-screen overflow-hidden bg-[#000]">
         <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
           <defs>
@@ -67,8 +68,20 @@ const App = () => {
           />
         </svg>
       </div>
-      {showContent && <div className="main w-full h-full "></div>}
-     <h1 className='text:red-500'>GTA VI</h1>
+      )}
+      {showContent && (
+        <div className="main w-full ">
+          <div className="landing relative w-full h-screen bg-black">
+             <div className='imagesdiv w-full h-screen'>
+              <img  className='absolute top-0 left-0 w-full h-full object-cover' src="./sky.png" alt="sky" />
+              <img className='absolute top-0 left-0 w-full h-full object-cover' src="./bg.png" alt="bg" />
+              <img className='absolute -bottom-[55%] left-1/2 -translate-x-1/2 scale-[0.7] ' src="./girlbg.png" alt="girlbg" />
+             </div>
+          </div>
+        </div>
+        )
+      }
+   
      
     </>
   );
