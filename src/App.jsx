@@ -1,8 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 
+
+
 const App = () => {
+
+  let [showContent, setContent] = React.useState(false);
 
   // GSAP Animation
   useGSAP(() => {
@@ -10,10 +14,27 @@ const App = () => {
        tl.to(".vi-mask-group", {
         rotate: 10,
         ease: "power4.inOut",
+        duration: 2,
         transformOrigin: "50% 50%",
-       })
-      });
 
+       }).to(".vi-mask-group", {
+        scale: 10,
+        duration: 2,
+        delay: -1.8,
+        ease: "Expo.easeInOut",
+        transformOrigin: "50% 50%",
+        opacity: 0,
+        onUpdate: function() {
+          if (this.progress() >= 0.9) {
+            document.querySelector("svg").remove();
+            setContent(true);
+            this.kill();
+          }
+        }
+
+
+      });
+      });
 
   return (
     <>
