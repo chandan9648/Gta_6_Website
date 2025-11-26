@@ -67,6 +67,8 @@ const App = () => {
           />
         </svg>
       </div>
+      {showContent && <div className="main w-full h-full "></div>}
+     <h1 className='text:red-500'>GTA VI</h1>
      
     </>
   );
