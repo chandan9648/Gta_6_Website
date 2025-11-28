@@ -70,8 +70,17 @@ const App = () => {
       {showContent && (
         <div className="main w-full ">
           <div className="landing  w-full h-screen bg-black">
-            <div className='navbar absolute top-0 left-0 z-[10] w-full py-6 px-10 bg-red-600'>
-              
+            <div className='navbar absolute top-0 left-0 z-[10] w-full py-6 px-10'>
+              <div className='logo'>
+                <div className='lines flex flex-col gap-1 '>
+                   <div className='line w-12 h-1 bg-white'></div>
+                   <div className='line w-8 h-1 bg-white'></div>
+                   <div className='line w-6 h-1 bg-white'></div>
+                </div>
+                  <h3 className='text-3xl text-white'>Rockstar</h3>
+                  
+               
+              </div>
             </div>
             <div className='imagesdiv absolute w-full overflow-hidden h-screen'>
               <img className='absolute top-0 left-0 w-full h-full object-cover' src="./sky.png" alt="sky" />
