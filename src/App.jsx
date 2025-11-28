@@ -72,7 +72,8 @@ const App = () => {
           <div className="landing  w-full h-screen bg-black">
             <div className='navbar absolute top-0 left-0 z-[10] w-full py-6 px-10'>
               <div className='logo flex gap-6'>
-                <div className='lines flex flex-col gap-1 mt-2'>
+                
+                <div className='lines flex flex-col gap-1 mt-2'> 
                    <div className='line w-12 h-1 bg-white'></div>
                    <div className='line w-8 h-1 bg-white'></div>
                    <div className='line w-6 h-1 bg-white'></div>
