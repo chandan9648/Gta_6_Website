@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
+import 'remixicon/fonts/remixicon.css'
 
 
 
@@ -71,8 +72,7 @@ const App = () => {
         <div className="main w-full ">
           <div className="landing  w-full h-screen bg-black">
             <div className='navbar absolute top-0 left-0 z-[10] w-full py-6 px-10'>
-              <div className='logo flex gap-6'>
-                
+              <div className='logo flex gap-6'>               
                 <div className='lines flex flex-col gap-1 mt-2'> 
                    <div className='line w-12 h-1 bg-white'></div>
                    <div className='line w-8 h-1 bg-white'></div>
@@ -87,6 +87,13 @@ const App = () => {
               <img className='absolute top-0 left-0 w-full h-full object-cover' src="./sky.png" alt="sky" />
               <img className='absolute top-0 left-0 w-full h-full object-cover' src="./bg.png" alt="bg" />
               <img className='absolute -bottom-[55%] left-1/2 -translate-x-1/2 scale-[0.7] ' src="./girlbg.png" alt="girlbg" />
+            </div>
+            <div className='btmbar text-white absolute w-full bottom-0 left-0 py-12 px-10 bg-gradient-to-t from-black to-transparent'>
+            <div className='flex gap-4 items-center'>
+              <i className="text-xl ri-arrow-down-line cursor-pointer"></i>
+              <h3 className=''>Scroll Down</h3>
+            </div>
+            <img className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[55px]' src="./ps5.png" alt="" />
             </div>
           </div>
         </div>
