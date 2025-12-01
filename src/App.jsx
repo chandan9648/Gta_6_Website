@@ -100,8 +100,8 @@ const App = () => {
               </div>
             </div>
             <div className='imagesdiv absolute w-full overflow-hidden h-screen'>
-              <img className='absolute top-0 scale-[1.2] left-0 w-full h-full object-cover' src="./sky.png" alt="sky" />
-              <img className='absolute top-0 left-0 w-full h-full object-cover' src="./bg.png" alt="bg" />
+              <img className='absolute sky top-0 scale-[1.2] left-0 w-full h-full object-cover' src="./sky.png" alt="sky" />
+              <img className='absolute bg top-0 left-0 w-full h-full object-cover' src="./bg.png" alt="bg" />
 
               <div className="text text-white flex flex-col gap-3 absolute top-20 left-1/2 -translate-x-1/2 scale-[1.4] rotate-[-10deg]">
                 <h1 className="text-[10rem] leading-none -ml-40">grand</h1>
