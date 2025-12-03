@@ -85,7 +85,7 @@ const App = () => {
         </div>
       )}
       {showContent && (
-      
+
         <div className="main w-full ">
           <div className="landing  w-full h-screen bg-black">
             <div className='navbar absolute top-0 left-0 z-[10] w-full py-6 px-10'>
@@ -120,11 +120,15 @@ const App = () => {
               <img className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[55px]' src="./ps5.png" alt="" />
             </div>
           </div>
-          <div className='w-full h-full  bg-black'>
-            <div className='limg w-1/2'>
-              <img src="./imag.png" alt="imag" />
+
+          {/*Second Section*/}
+          <div className='w-full h-screen flex  items-center justify-center bg-black'>
+            <div className="cntr w-full h-[50%]">
+              <div className='limg relative w-1/2 h-screen'>
+                <img className='absolute scale-[1.3] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ' src="./imag.png" alt="imag" />
+              </div>
+              <div className="rg"></div>
             </div>
-            <div className="rg"></div>
           </div>
         </div>
       )}
