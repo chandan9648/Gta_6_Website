@@ -49,8 +49,6 @@ const App = () => {
   }, [showContent]);
 
 
-
-
   return (
     <>
       {!showContent && (
@@ -132,7 +130,6 @@ const App = () => {
           </div>
         </div>
       )}
-
 
     </>
   );
