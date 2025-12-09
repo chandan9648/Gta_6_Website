@@ -34,7 +34,7 @@ const App = () => {
 
 
     const main = document.querySelector('.main');
-
+    //mouse move effect
     main?.addEventListener("mousemove", function (e) {
       const xMove = (e.clientX / window.innerWidth - 0.5) * 40;
       gsap.to('.main .text', {
