@@ -28,6 +28,7 @@ const App = () => {
           document.querySelector("svg").remove();
           setContent(true);
           this.kill();
+          
         }
       }
     });
