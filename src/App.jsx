@@ -126,7 +126,7 @@ const App = () => {
               </div>
               <div className="rg"></div>
               <h1 className='text-7xl'>Still running</h1>
-              
+              <h2>Secon test</h2>
             </div>
           </div>
         </div>
