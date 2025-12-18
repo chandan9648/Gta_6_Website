@@ -125,7 +125,8 @@ const App = () => {
                 <img className='absolute scale-[1.3] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ' src="./imag.png" alt="imag" />
               </div>
               <div className="rg"></div>
-              <h1 className='text-8xl'>Still running</h1>
+              <h1 className='text-7xl'>Still running</h1>
+              
             </div>
           </div>
         </div>
