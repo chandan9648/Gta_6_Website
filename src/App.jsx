@@ -28,7 +28,7 @@ const App = () => {
           document.querySelector("svg").remove();
           setContent(true);
           this.kill();
-          
+
         }
       }
     });
@@ -124,9 +124,11 @@ const App = () => {
               <div className='limg relative w-1/2 h-screen'>
                 <img className='absolute scale-[1.3] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ' src="./imag.png" alt="imag" />
               </div>
-              <div className="rg"></div>
-              <h1 className='text-7xl'>Still running</h1>
-              
+              <div className="rg">
+                <h1 className='text-8xl'>Still running,</h1>
+                <h1 className='text-8xl'>Not Hunting</h1>
+                <p className='mt-10 font-[helvetica_Now_Display]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore quos minus, totam dignissimos eos repellendus corrupti modi error quibusdam quis aliquam maiores nihil, quaerat voluptatum quasi nisi eius, consequatur dolor?</p>
+              </div>
             </div>
           </div>
         </div>
