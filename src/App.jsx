@@ -32,7 +32,7 @@ const App = () => {
         }
       }
     });
-
+//for flip effect
     gsap.to(".main", {
       scale: 1,
       rotate: 0,
