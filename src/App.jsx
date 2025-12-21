@@ -41,6 +41,24 @@ const App = () => {
       
     });
 
+      gsap.to(".sky", {
+      scale: 1,
+      rotate: 0,
+      duration: 2,
+      ease: "Expo.easeInOut",
+    
+      
+    });
+
+      gsap.to(".bg", {
+      scale: 1,
+      rotate: 0,
+      duration: 2,
+      ease: "Expo.easeInOut",
+      
+      
+    });
+
     const main = document.querySelector('.main');
     //mouse move effect
     main?.addEventListener("mousemove", function (e) {
