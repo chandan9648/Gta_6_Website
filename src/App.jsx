@@ -56,7 +56,6 @@ const App = () => {
       duration: 2,
       ease: "Expo.easeInOut",
 
-
     });
 
     const main = document.querySelector('.main');
