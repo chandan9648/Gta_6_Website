@@ -32,35 +32,35 @@ const App = () => {
         }
       }
     });
-//for flip effect
+    //for flip effect
     gsap.to(".main", {
       scale: 1,
       rotate: 0,
       duration: 2,
       ease: "Expo.easeInOut",
-      
+
     });
 
-      gsap.to(".sky", {
+    gsap.to(".sky", {
       scale: 1,
       rotate: 0,
       duration: 2,
       ease: "Expo.easeInOut",
-    
-      
+
+
     });
 
-      gsap.to(".bg", {
+    gsap.to(".bg", {
       scale: 1,
       rotate: 0,
       duration: 2,
       ease: "Expo.easeInOut",
-      
-      
+
+
     });
 
     const main = document.querySelector('.main');
-    //mouse move effect
+    //mouse move effect trigger
     main?.addEventListener("mousemove", function (e) {
       const xMove = (e.clientX / window.innerWidth - 0.5) * 40;
       gsap.to('.main .text', {
@@ -108,7 +108,7 @@ const App = () => {
       )}
       {showContent && (
 
-        <div className="main w-full rotate-[-10deg] scale-[1.6]"> 
+        <div className="main w-full rotate-[-10deg] scale-[1.6]">
           <div className="landing  w-full h-screen bg-black">
             <div className='navbar absolute top-0 left-0 z-[10] w-full py-6 px-10'>
               <div className='logo flex gap-5'>
@@ -153,9 +153,9 @@ const App = () => {
                 <h1 className='text-8xl'>Still running,</h1>
                 <h1 className='text-8xl'>Not Hunting</h1>
                 <p className='mt-10 text-md font-[helvetica_Now_Display]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore quos minus, totam dignissimos eos repellendus corrupti modi error quibusdam quis aliquam maiores nihil, quaerat voluptatum quasi nisi eius, consequatur dolor?</p>
-                 <p className='mt-5 text-md  font-[helvetica_Now_Display]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore quos minus, totam dignissimos eos repellendus corrupti modi error quibusdam quis aliquam maiores nihil, quaerat voluptatum quasi nisi eius, consequatur dolor?</p>
-                  <p className='mt-5 text-md font-[helvetica_Now_Display]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore quos minus, totam dignissimos eos repellendus corrupti modi error quibusdam quis aliquam maiores nihil, quaerat voluptatum quasi nisi eius, consequatur dolor?</p>
-                  <button className='bg-yellow-500 px-8 py-8 text-4xl text-black cursor-pointer mt-8'>Download</button>
+                <p className='mt-5 text-md  font-[helvetica_Now_Display]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore quos minus, totam dignissimos eos repellendus corrupti modi error quibusdam quis aliquam maiores nihil, quaerat voluptatum quasi nisi eius, consequatur dolor?</p>
+                <p className='mt-5 text-md font-[helvetica_Now_Display]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore quos minus, totam dignissimos eos repellendus corrupti modi error quibusdam quis aliquam maiores nihil, quaerat voluptatum quasi nisi eius, consequatur dolor?</p>
+                <button className='bg-yellow-500 px-8 py-8 text-4xl text-black cursor-pointer mt-8'>Download</button>
               </div>
             </div>
           </div>
