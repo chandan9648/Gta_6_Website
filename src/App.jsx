@@ -15,6 +15,7 @@ const App = () => {
       ease: "power4.inOut",
       duration: 2,
       transformOrigin: "50% 50%",
+      
 
     }).to(".vi-mask-group", {
       scale: 10,
