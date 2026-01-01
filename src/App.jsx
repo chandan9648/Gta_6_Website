@@ -7,7 +7,7 @@ const App = () => {
 
   let [showContent, setContent] = React.useState(false);
 
-  // GSAP Animation applyd on SVG and main content
+  // GSAP Animation
   useGSAP(() => {
     const tl = gsap.timeline();
     tl.to(".vi-mask-group", {
