@@ -121,7 +121,6 @@ const App = () => {
                 </div>
                 <h3 className='text-3xl text-white'>Rockstar</h3>
 
-
               </div>
             </div>
             <div className='imagesdiv absolute w-full overflow-hidden h-screen'>
