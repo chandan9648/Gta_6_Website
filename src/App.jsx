@@ -145,7 +145,7 @@ const App = () => {
           </div>
 
           {/*Second Section*/}
-          <div className='w-full h-full flex  items-center justify-center bg-black'>
+          <div className='w-full h-[188vh] flex  items-center justify-center bg-black'>
             <div className="cntr flex text-white w-full h-[40%] ">
               <div className='limg relative w-1/2 h-screen'>
                 <img className='absolute scale-[1.3] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ' src="./imag.png" alt="imag" />
